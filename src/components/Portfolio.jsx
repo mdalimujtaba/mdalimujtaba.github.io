@@ -4,7 +4,7 @@ import Navbar from "./Navbar"
 function Portfolio(){
     return(
         <div>
-            {/* <Navbar/> */}
+            <Navbar/>
             <Intro/>
 
         </div>
