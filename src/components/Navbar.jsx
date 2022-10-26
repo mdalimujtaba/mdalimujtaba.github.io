@@ -122,6 +122,18 @@ function Navbar() {
             >
               Contact
             </Text>
+            <Text
+              fontSize={["20px"]}
+              color={["white"]}
+              _hover={{
+                cursor: "pointer",
+                textDecorationLine: "underline",
+                textDecorationColor: "red",
+                textDecorationThickness: "3px",
+              }}
+            >
+              Resume
+            </Text>
           </Flex>
           <Box display={"flex"} alignItems="center">
             <Button
@@ -212,6 +224,19 @@ function Navbar() {
                 }}
               >
                 Contact
+              </Text>
+              <Text
+                fontSize={["20px"]}
+                color={["white"]}
+                mt="40px"
+                _hover={{
+                  cursor: "pointer",
+                  textDecorationLine: "underline",
+                  textDecorationColor: "red",
+                  textDecorationThickness: "3px",
+                }}
+              >
+                Resume
               </Text>
             </DrawerBody>
           </DrawerContent>

@@ -99,7 +99,7 @@ function Intro() {
               ml={["2%","20%","30%","25%"]}
               width={["96%","60%","40%","50%"]}
             >
-              <Box border="1px solid white" width="40px" height="40px" _hover={{transform:'scale(1.1)', transition:'1s'}}>
+              <Box  width="40px" height="40px" _hover={{transform:'scale(1.1)', transition:'1s'}}>
                 <Image src="https://i.postimg.cc/wxWTM5jk/icons8-linkedin-48-removebg-preview-1.png" borderRadius={'5px'}/>
               </Box>
               <Box
