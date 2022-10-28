@@ -4,6 +4,7 @@ import {
   Center,
   Flex,
   Image,
+  Link,
   SimpleGrid,
   Stack,
   Text,
@@ -16,14 +17,14 @@ function Intro() {
   
   return (
    
-   <Box bg="rgb(13,17,23)" h={'auto'}>
+   <Box bg="rgb(13,17,23)" h={'auto'} pb={'30px'}>
      <SimpleGrid
       bg="rgb(13,17,23)"
       columns={{ sm: 1, md: 1, lg: 2 }}
     height={['650px','580px','450px','500px']}
       width={['96%',"90%","86%","86%"]}
       ml={['2%',"5%","7%","7%"]}
-      border={'5px solid blue'}
+      // border={'5px solid blue'}
 
     >
       <Box display={["flex", "flex", "flex", "none"]}
@@ -35,7 +36,7 @@ function Intro() {
           margin={'auto'}
         >
           <Image
-            src="https://i.postimg.cc/X7V0bG36/photostudio-2-designify.png"
+            src="https://i.postimg.cc/Y9vTtRSg/photo.png"
             margin="auto"
             borderRadius={"50%"}
             height={"fit-content"}
@@ -99,9 +100,12 @@ function Intro() {
               ml={["2%","20%","30%","25%"]}
               width={["96%","60%","40%","50%"]}
             >
+              <Link href="https://www.linkedin.com/in/md-ali-mujtaba-695921183/">
               <Box  width="40px" height="40px" _hover={{transform:'scale(1.1)', transition:'1s'}}>
                 <Image src="https://i.postimg.cc/wxWTM5jk/icons8-linkedin-48-removebg-preview-1.png" borderRadius={'5px'}/>
               </Box>
+              </Link>
+              <Link href="https://github.com/mdalimujtaba">
               <Box
                 // border="1px solid white"
                 width="40px"
@@ -111,7 +115,7 @@ function Intro() {
                 _hover={{transform:'scale(1.1)', transition:'1s'}}
               >
                 <Image src="https://i.postimg.cc/FK9H1T3D/Git-Hub-Mark-Light-64px.png"/>
-              </Box>
+              </Box></Link>
               <Button  bg="white" color={'black'} height={"40px"} borderRadius='2xl' fontSize={'xl'} display={'flex'} alignItem="center">
                 Resume
                 < IoMdArrowDropright />
@@ -127,13 +131,13 @@ function Intro() {
         // bg={"grey"}
         width={"100%"}
         height="500px"
-        area="image"
+        
         display={["none", "none", "none", "flex"]}
       >
         <Image
-          src="https://i.postimg.cc/X7V0bG36/photostudio-2-designify.png"
+          src="https://i.postimg.cc/Y9vTtRSg/photo.png"
           height={"70%"}
-          borderRadius="50%"
+          borderRadius="30%"
           margin={'auto'}
         />
       </Box>
