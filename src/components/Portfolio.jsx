@@ -1,3 +1,4 @@
+import GithubStats from "./GithubStats"
 import Intro from "./Intro"
 import Navbar from "./Navbar"
 import Project from "./Project"
@@ -8,6 +9,7 @@ function Portfolio(){
             <Navbar/>
             <Intro/>
             <Project/>
+            <GithubStats/>
 
         </div>
     )
