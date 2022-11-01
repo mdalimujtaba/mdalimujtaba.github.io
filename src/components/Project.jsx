@@ -12,7 +12,7 @@ import { FiExternalLink } from "react-icons/fi";
 
 function Project() {
   return (
-    <Box bg={"rgb(30,41,59)"} h="auto" pb={"30px"}>
+    <Box bg={"rgb(13,17,23)"} h="auto" pb={"30px"}>
       <Box width={["86%"]} ml={["7%"]}
       //  border="1px solid white" 
        h={["100%"]}>
@@ -32,7 +32,7 @@ function Project() {
           ml={["2%", "7%", "7%", "15%"]}
           mt={["30px"]}
           _hover={{ transform: "scale(1.05)", transition: "1s" }}
-          bg="rgb(13,17,23)"
+          bg="rgb(30,41,59)"
         >
           <Box h={"auto"} w={["100%", "100%", "55%", "55%"]}>
             <Image
@@ -111,7 +111,7 @@ function Project() {
           ml={["2%", "7%", "7%", "15%"]}
           mt={["30px"]}
           _hover={{ transform: "scale(1.05)", transition: "1s" }}
-          bg="rgb(13,17,23)"
+          bg="rgb(30,41,59)"
         >
           <Box h={"auto"} w={["100%", "100%", "55%", "55%"]}>
             <Image
@@ -191,7 +191,7 @@ function Project() {
           ml={["2%", "7%", "7%", "15%"]}
           mt={["30px"]}
           _hover={{ transform: "scale(1.05)", transition: "1s" }}
-          bg="rgb(13,17,23)"
+          bg="rgb(30,41,59)"
         >
           <Box h={"auto"} w={["100%", "100%", "55%", "55%"]}>
             <Image
@@ -271,7 +271,7 @@ function Project() {
           ml={["2%", "7%", "7%", "15%"]}
           mt={["30px"]}
           _hover={{ transform: "scale(1.05)", transition: "1s" }}
-          bg="rgb(13,17,23)"
+          bg="rgb(30,41,59)"
         >
           <Box h={"auto"} w={["100%", "100%", "55%", "55%"]}>
             <Image

@@ -21,7 +21,9 @@ function GithubStats(){
       };
     return(
         <Box bg="rgb(13,17,23)" h={'auto'} pb={'30px'}>
-            <Box w={['86%']} ml={['7%']} border='1px solid white'>
+            <Box w={['86%']} ml={['7%']} 
+            // border='1px solid white'
+            >
                 <Center
                 //  border={"1px solid pink"}
                 pt="30px">
@@ -43,9 +45,9 @@ function GithubStats(){
                 </Heading>
                 </Center>
                
-                <SimpleGrid  columns={[1,1,1,2]} spacing='40px'>
-                    <Image src="https://streak-stats.demolab.com?user=mdalimujtaba&theme=radical"/>
-                    <Image src="https://github-readme-stats.vercel.app/api?username=mdalimujtaba&show_icons=true&theme=radical"/>
+                <SimpleGrid  columns={[1,1,1,2]} spacing='40px' mt="30px">
+                    <Image margin={'auto'} src="https://streak-stats.demolab.com?user=mdalimujtaba&theme=radical"/>
+                    <Image margin={"auto"} src="https://github-readme-stats.vercel.app/api?username=mdalimujtaba&show_icons=true&theme=radical"/>
                 </SimpleGrid>
             </Box>
         </Box>
