@@ -1,5 +1,5 @@
 import { Box, Center, Heading, Image, SimpleGrid } from "@chakra-ui/react";
-import {  SiHtml5} from "react-icons/si";
+
 
 function Skills() {
     let Frontend_Skills=[
@@ -37,7 +37,8 @@ function Skills() {
 
     ]
   return (
-    <Box bg="rgb(30,41,59)" h={"auto"} pb={"30px"}>
+    
+    <Box id="Skills" isLazy bg="rgb(30,41,59)" h={"auto"} pb={"30px"}>
       <Box w={["86%"]} ml={["7%"]}
     //    border="1px solid white"
        >
@@ -50,7 +51,7 @@ function Skills() {
           </Heading>
         </Center>
         <SimpleGrid columns={[2,2,4,5]} gap={'30px'} mt="30px">
-            {Frontend_Skills.map((item)=><Box bg="blackAlpha.500" w={['100px',"150px","150px","150px"]} h={["100px","150px","150px",'150px']} borderRadius={"10px"} margin={'auto'} >
+            {Frontend_Skills.map((item)=><Box key={item.name} bg="blackAlpha.500" w={['100px',"150px","150px","150px"]} h={["100px","150px","150px",'150px']} borderRadius={"10px"} margin={'auto'} >
                 <Box w="30%" h={'30%'} ml="35%" mt={'30%'} borderRadius="5px"><Image borderRadius="5px" src={item.logo} bg='white' w='100%' h="100%"/></Box>
                 <Box color="white" fontSize={'18px'} textAlign='center' mt={'5px'}>{item.name}</Box>
             </Box>)}

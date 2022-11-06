@@ -8,7 +8,9 @@ import {
   DrawerContent,
   DrawerBody,
   DrawerFooter,
+  Link,
 } from "@chakra-ui/react";
+import Resume from "../Resume/Md-Ali-Mujtaba-Resume.pdf"
 
 import { HamburgerIcon } from "@chakra-ui/icons";
 
@@ -62,6 +64,7 @@ function Navbar() {
               xl: "flex",
             }}
           >
+            <Link href="#Home" >
             <Text
               fontSize={["20px"]}
               color={["white"]}
@@ -74,18 +77,9 @@ function Navbar() {
             >
               Home
             </Text>
-            <Text
-              fontSize={["20px"]}
-              color={["white"]}
-              _hover={{
-                cursor: "pointer",
-                textDecorationLine: "underline",
-                textDecorationColor: "red",
-                textDecorationThickness: "3px",
-              }}
-            >
-              About
-            </Text>
+           
+            </Link>
+            <Link href="#Skills">
             <Text
               fontSize={["20px"]}
               color={["white"]}
@@ -98,6 +92,8 @@ function Navbar() {
             >
               Skills
             </Text>
+            </Link>
+            <Link href="#Project">
             <Text
               fontSize={["20px"]}
               color={["white"]}
@@ -107,9 +103,11 @@ function Navbar() {
                 textDecorationColor: "red",
                 textDecorationThickness: "3px",
               }}
-            >
+              >
               Projects
             </Text>
+              </Link>
+              <Link href="#Contact">
             <Text
               fontSize={["20px"]}
               color={["white"]}
@@ -119,10 +117,12 @@ function Navbar() {
                 textDecorationColor: "red",
                 textDecorationThickness: "3px",
               }}
-            >
+              >
               Contact
             </Text>
-            <Text
+              </Link>
+           <Link  href={Resume} target={"_blank"} download={'Md-Ali-Mujtaba-Resume'}>
+           <Text
               fontSize={["20px"]}
               color={["white"]}
               _hover={{
@@ -134,6 +134,7 @@ function Navbar() {
             >
               Resume
             </Text>
+           </Link>
           </Flex>
           <Box display={"flex"} alignItems="center">
             <Button
@@ -152,7 +153,7 @@ function Navbar() {
             bg={"rgb(30,41,59)"}
             w={"100%"}
             mt={"80px"}
-            height="400px"
+            height="360px"
             display={{ sm: "block", md: "block", lg: "none", xl: "none" }}
           >
             <DrawerBody
@@ -160,6 +161,8 @@ function Navbar() {
               ml={{ sm: "3%", md: "8%" }}
               // border='1px solid white'
             >
+              <Link href="#Home" onClick={onClose}>
+
               <Text
                 fontSize={["20px"]}
                 color={["white"]}
@@ -169,75 +172,76 @@ function Navbar() {
                   textDecorationLine: "underline",
                   textDecorationColor: "red",
                   textDecorationThickness: "3px",
+                  
                 }}
-              >
+                >
                 Home
               </Text>
+                </Link>
+                <Link href="#Skills" onClick={onClose}>
+
+             
               <Text
                 fontSize={["20px"]}
                 color={["white"]}
-                mt="40px"
+                mt="35px"
                 _hover={{
                   cursor: "pointer",
                   textDecorationLine: "underline",
                   textDecorationColor: "red",
                   textDecorationThickness: "3px",
                 }}
-              >
-                About
-              </Text>
-              <Text
-                fontSize={["20px"]}
-                color={["white"]}
-                mt="40px"
-                _hover={{
-                  cursor: "pointer",
-                  textDecorationLine: "underline",
-                  textDecorationColor: "red",
-                  textDecorationThickness: "3px",
-                }}
-              >
+                >
                 Skills
               </Text>
+                </Link>
+                <Link href="#Project" onClick={onClose}>
+
               <Text
                 fontSize={["20px"]}
                 color={["white"]}
-                mt="40px"
+                mt="35px"
                 _hover={{
                   cursor: "pointer",
                   textDecorationLine: "underline",
                   textDecorationColor: "red",
                   textDecorationThickness: "3px",
                 }}
-              >
+                >
                 Projects
               </Text>
+                </Link>
+                <Link href="#Contact" onClick={onClose}>
+
               <Text
                 fontSize={["20px"]}
                 color={["white"]}
-                mt="40px"
+                mt="35px"
                 _hover={{
                   cursor: "pointer",
                   textDecorationLine: "underline",
                   textDecorationColor: "red",
                   textDecorationThickness: "3px",
                 }}
-              >
+                >
                 Contact
               </Text>
-              <Text
-                fontSize={["20px"]}
-                color={["white"]}
-                mt="40px"
-                _hover={{
-                  cursor: "pointer",
-                  textDecorationLine: "underline",
-                  textDecorationColor: "red",
-                  textDecorationThickness: "3px",
-                }}
-              >
-                Resume
-              </Text>
+                </Link>
+              <Link  href={Resume} target={"_blank"} download={'Md-Ali-Mujtaba-Resume'} onClick={onClose}>
+           <Text
+              fontSize={["20px"]}
+              color={["white"]}
+              mt="35px"
+              _hover={{
+                cursor: "pointer",
+                textDecorationLine: "underline",
+                textDecorationColor: "red",
+                textDecorationThickness: "3px",
+              }}
+            >
+              Resume
+            </Text>
+           </Link>
             </DrawerBody>
           </DrawerContent>
         </Drawer>

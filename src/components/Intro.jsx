@@ -9,7 +9,7 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-// import { IoMdArrowDropright} from "react-icons/im";
+import Resume from "../Resume/Md-Ali-Mujtaba-Resume.pdf"
 import { IoMdArrowDropright } from "react-icons/io";
 // import { Typewriter } from 'react-simple-typewriter'
 function Intro() {
@@ -17,7 +17,7 @@ function Intro() {
   
   return (
    
-   <Box bg="rgb(13,17,23)" h={'auto'} pb={'30px'}>
+   <Box id="Home"  bg="rgb(13,17,23)" h={'auto'} pb={'30px'}>
      <SimpleGrid
       bg="rgb(13,17,23)"
       columns={{ sm: 1, md: 1, lg: 2 }}
@@ -100,12 +100,12 @@ function Intro() {
               ml={["2%","20%","30%","25%"]}
               width={["96%","60%","40%","50%"]}
             >
-              <Link href="https://www.linkedin.com/in/md-ali-mujtaba-695921183/">
+              <Link href="https://www.linkedin.com/in/md-ali-mujtaba-695921183/" target="_blank">
               <Box  width="40px" height="40px" _hover={{transform:'scale(1.1)', transition:'1s'}}>
                 <Image src="https://i.postimg.cc/wxWTM5jk/icons8-linkedin-48-removebg-preview-1.png" borderRadius={'5px'}/>
               </Box>
               </Link>
-              <Link href="https://github.com/mdalimujtaba">
+              <Link href="https://github.com/mdalimujtaba"  target="_blank">
               <Box
                 // border="1px solid white"
                 width="40px"
@@ -116,10 +116,12 @@ function Intro() {
               >
                 <Image src="https://i.postimg.cc/FK9H1T3D/Git-Hub-Mark-Light-64px.png"/>
               </Box></Link>
+              <Link href={Resume} target={"_blank"} download={'Md-Ali-Mujtaba-Resume'} _hover={{textDecoration:"none"}}>
               <Button  bg="white" color={'black'} height={"40px"} borderRadius='2xl' fontSize={'xl'} display={'flex'} alignItem="center">
                 Resume
                 < IoMdArrowDropright />
               </Button>
+              </Link>
               
 
             </Flex>

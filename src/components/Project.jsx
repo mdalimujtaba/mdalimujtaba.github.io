@@ -12,13 +12,17 @@ import { FiExternalLink } from "react-icons/fi";
 
 function Project() {
   return (
-    <Box bg={"rgb(13,17,23)"} h="auto" pb={"30px"}>
-      <Box width={["86%"]} ml={["7%"]}
-      //  border="1px solid white" 
-       h={["100%"]}>
+    <Box id="Project" bg={"rgb(13,17,23)"} h="auto" pb={"30px"}>
+      <Box
+        width={["86%"]}
+        ml={["7%"]}
+        //  border="1px solid white"
+        h={["100%"]}
+      >
         <Center
-        //  border={"1px solid pink"}
-         pt="30px">
+          //  border={"1px solid pink"}
+          pt="30px"
+        >
           <Heading size={"xl"} color="white" fontWeight={500}>
             Project
           </Heading>
@@ -28,8 +32,8 @@ function Project() {
           display={["block", "block", "flex", "flex"]}
           borderRadius="10px"
           border={"2px solid white"}
-          w={["96%", "86%", "86%", "70%"]}
-          ml={["2%", "7%", "7%", "15%"]}
+          w={["100%", "86%", "86%", "70%"]}
+          ml={["0%", "7%", "7%", "15%"]}
           mt={["30px"]}
           _hover={{ transform: "scale(1.05)", transition: "1s" }}
           bg="rgb(30,41,59)"
@@ -50,7 +54,8 @@ function Project() {
             // border={"1px solid red"}
             w={["100%", "100%", "45%", "45%"]}
             textAlign={"center"}
-            p={["10px"]}
+            p={['0','10px','10px',"10px"]}
+            pb="10px"
           >
             <Heading size={"lg"} color="white" mt={"10px"}>
               TimeCamp Clone
@@ -71,12 +76,17 @@ function Project() {
               JavaScript | ReactJS | Chakra-UI | CSS | HTML
             </Text>
             <Box
-              display={["flex"]}
+             
+              display={["flex", "flex", "flex", "flex"]}
               justifyContent={["space-around"]}
+              alignContent="space-between"
+              
               mt={["10px"]}
+              // border="1px solid white"
             >
               <Link
                 href="https://github.com/mdalimujtaba/Timecamp.com_clone"
+                target={"_blank"}
                 _hover={{ textdecoration: "none" }}
               >
                 <Button
@@ -89,11 +99,13 @@ function Project() {
               </Link>
               <Link
                 href="https://timecampin.netlify.app/"
+                target={"_blank"}
                 _hover={{ textdecoration: "none" }}
               >
                 <Button
                   colorScheme="gray"
                   color="black"
+                  // mt={["15px", "0", "0", "0"]}
                   rightIcon={<FiExternalLink />}
                 >
                   Live
@@ -107,8 +119,8 @@ function Project() {
           display={["block", "block", "flex", "flex"]}
           borderRadius="10px"
           border={"2px solid white"}
-          w={["96%", "86%", "86%", "70%"]}
-          ml={["2%", "7%", "7%", "15%"]}
+          w={["100%", "86%", "86%", "70%"]}
+          ml={["0%", "7%", "7%", "15%"]}
           mt={["30px"]}
           _hover={{ transform: "scale(1.05)", transition: "1s" }}
           bg="rgb(30,41,59)"
@@ -129,13 +141,14 @@ function Project() {
             // border={"1px solid red"}
             w={["100%", "100%", "45%", "45%"]}
             textAlign={"center"}
-            p={["10px"]}
+            p={['0','10px','10px',"10px"]}
+            pb="10px"
           >
             <Heading size={"lg"} color="white" mt={"10px"}>
               Bath & Body Works Clone
             </Heading>
             <Text color="white" size={["md"]} mt={"10px"}>
-              Bath & Body Works is an E-Commerce website which deals in body
+              Bath & Body Works is an e-commerce website which deals in body
               care products, differents types of gift items and home fragnance.
             </Text>
             <Text
@@ -150,18 +163,21 @@ function Project() {
               CSS | HTML | JavaScript
             </Text>
             <Box
-              display={["flex"]}
+              display={["flex", "flex", "flex", "flex"]}
               justifyContent={["space-around"]}
               mt={["10px"]}
+              // margin="auto"
             >
               <Link
                 href="https://github.com/mdalimujtaba/Bath-BodyWorks_clone"
+                target={"_blank"}
                 _hover={{ textdecoration: "none" }}
               >
                 {" "}
                 <Button
                   colorScheme="gray"
                   color="black"
+                  // mt={['15px','0','0','0']}
                   rightIcon={<AiFillGithub />}
                 >
                   Source Code
@@ -169,11 +185,13 @@ function Project() {
               </Link>
               <Link
                 href="https://bath-and-body-works-clone.netlify.app/"
+                target={"_blank"}
                 _hover={{ textdecoration: "none" }}
               >
                 <Button
                   colorScheme="gray"
                   color="black"
+                  // mt={["15px", "0", "0", "0"]}
                   rightIcon={<FiExternalLink />}
                 >
                   Live
@@ -187,8 +205,8 @@ function Project() {
           display={["block", "block", "flex", "flex"]}
           borderRadius="10px"
           border={"2px solid white"}
-          w={["96%", "86%", "86%", "70%"]}
-          ml={["2%", "7%", "7%", "15%"]}
+          w={["100%", "86%", "86%", "70%"]}
+          ml={["0%", "7%", "7%", "15%"]}
           mt={["30px"]}
           _hover={{ transform: "scale(1.05)", transition: "1s" }}
           bg="rgb(30,41,59)"
@@ -209,10 +227,11 @@ function Project() {
             // border={"1px solid red"}
             w={["100%", "100%", "45%", "45%"]}
             textAlign={"center"}
-            p={["10px"]}
+            p={['0','10px','10px',"10px"]}
+            pb="10px"
           >
             <Heading size={"lg"} color="white" mt={"10px"}>
-              Cricker.Com Clone
+              Cricket.Com Clone
             </Heading>
             <Text color="white" size={["md"]} mt={"10px"}>
               Cricket.com provides live cricket scores, updates match schedules
@@ -230,12 +249,13 @@ function Project() {
               CSS | HTML | JavaScript
             </Text>
             <Box
-              display={["flex"]}
+              display={["flex", "flex", "flex", "flex"]}
               justifyContent={["space-around"]}
               mt={["10px"]}
             >
               <Link
                 href="https://github.com/mdalimujtaba/Cricket.com_clone"
+                target={"_blank"}
                 _hover={{ textdecoration: "none" }}
               >
                 {" "}
@@ -249,11 +269,13 @@ function Project() {
               </Link>
               <Link
                 href="https://smooth-book-cricket-com.netlify.app/"
+                target={"_blank"}
                 _hover={{ textdecoration: "none" }}
               >
                 <Button
                   colorScheme="gray"
                   color="black"
+                  // mt={["15px", "0", "0", "0"]}
                   rightIcon={<FiExternalLink />}
                 >
                   Live
@@ -267,8 +289,8 @@ function Project() {
           display={["block", "block", "flex", "flex"]}
           borderRadius="10px"
           border={"2px solid white"}
-          w={["96%", "86%", "86%", "70%"]}
-          ml={["2%", "7%", "7%", "15%"]}
+          w={["100%", "86%", "86%", "70%"]}
+          ml={["0%", "7%", "7%", "15%"]}
           mt={["30px"]}
           _hover={{ transform: "scale(1.05)", transition: "1s" }}
           bg="rgb(30,41,59)"
@@ -289,7 +311,8 @@ function Project() {
             // border={"1px solid red"}
             w={["100%", "100%", "45%", "45%"]}
             textAlign={"center"}
-            p={["10px"]}
+            p={['0','10px','10px',"10px"]}
+            pb="10px"
           >
             <Heading size={"lg"} color="white" mt={"10px"}>
               Monstor.Com Clone
@@ -310,12 +333,13 @@ function Project() {
               JavaScript | ReactJS | Chakra-UI | CSS | HTML
             </Text>
             <Box
-              display={["flex"]}
+              display={["flex", "flex", "flex", "flex"]}
               justifyContent={["space-around"]}
               mt={["10px"]}
             >
               <Link
                 href="https://github.com/mdalimujtaba/Monster.com_clone"
+                target={"_blank"}
                 _hover={{ textdecoration: "none" }}
               >
                 {" "}
@@ -329,11 +353,14 @@ function Project() {
               </Link>
               <Link
                 href="https://clonemonsterindia.netlify.app/"
+                target={"_blank"}
+                
                 _hover={{ textdecoration: "none" }}
               >
                 <Button
                   colorScheme="gray"
                   color="black"
+                  // mt={["15px", "0", "0", "0"]}
                   rightIcon={<FiExternalLink />}
                 >
                   Live

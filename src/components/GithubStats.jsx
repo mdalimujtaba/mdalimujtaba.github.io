@@ -28,7 +28,7 @@ function GithubStats(){
                 //  border={"1px solid pink"}
                 pt="30px">
                 <Heading size={"xl"} color="white" fontWeight={500}>
-                   My Github Calender
+                    Github Calender
                 </Heading>
                 </Center>
                 <Center color={'white'} mt="30px">
@@ -41,7 +41,7 @@ function GithubStats(){
                 //  border={"1px solid pink"}
                 pt="30px">
                 <Heading size={"xl"} color="white" fontWeight={500}>
-                    My Statistics
+                Github Stats
                 </Heading>
                 </Center>
                
