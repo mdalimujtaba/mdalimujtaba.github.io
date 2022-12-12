@@ -121,7 +121,7 @@ function Navbar() {
               Contact
             </Text>
               </Link>
-           <Link  href={Resume} target={"_blank"} download={'Md-Ali-Mujtaba-Resume'}>
+           <Link  href={Resume} download={'Md-Ali-Mujtaba-Resume'}>
            <Text
               fontSize={["20px"]}
               color={["white"]}
@@ -131,6 +131,7 @@ function Navbar() {
                 textDecorationColor: "red",
                 textDecorationThickness: "3px",
               }}
+              onClick={()=>window.open('http://localhost:3000/static/media/Md-Ali-Mujtaba-Resume.ad1f90bb3d5e0322995b.pdf')}
             >
               Resume
             </Text>
@@ -227,7 +228,7 @@ function Navbar() {
                 Contact
               </Text>
                 </Link>
-              <Link  href={Resume} target={"_blank"} download={'Md-Ali-Mujtaba-Resume'} onClick={onClose}>
+              <Link  href={Resume}  download={'Md-Ali-Mujtaba-Resume'} onClick={onClose}>
            <Text
               fontSize={["20px"]}
               color={["white"]}
@@ -237,7 +238,9 @@ function Navbar() {
                 textDecorationLine: "underline",
                 textDecorationColor: "red",
                 textDecorationThickness: "3px",
+                
               }}
+              onClick={()=>window.open('http://localhost:3000/static/media/Md-Ali-Mujtaba-Resume.ad1f90bb3d5e0322995b.pdf')}
             >
               Resume
             </Text>

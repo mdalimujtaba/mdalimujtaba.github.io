@@ -116,8 +116,8 @@ function Intro() {
               >
                 <Image src="https://i.postimg.cc/FK9H1T3D/Git-Hub-Mark-Light-64px.png"/>
               </Box></Link>
-              <Link href={Resume} target={"_blank"} download={'Md-Ali-Mujtaba-Resume'} _hover={{textDecoration:"none"}}>
-              <Button  bg="white" color={'black'} height={"40px"} borderRadius='2xl' fontSize={'xl'} display={'flex'} alignItem="center">
+              <Link href={Resume}  download={'Md-Ali-Mujtaba-Resume'} _hover={{textDecoration:"none"}}>
+              <Button onClick={()=>window.open('http://localhost:3000/static/media/Md-Ali-Mujtaba-Resume.ad1f90bb3d5e0322995b.pdf')}  bg="white" color={'black'} height={"40px"} borderRadius='2xl' fontSize={'xl'} display={'flex'} alignItem="center">
                 Resume
                 < IoMdArrowDropright />
               </Button>
