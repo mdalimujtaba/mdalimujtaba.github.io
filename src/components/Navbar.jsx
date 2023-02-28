@@ -121,7 +121,7 @@ function Navbar() {
               Contact
             </Text>
               </Link>
-           <Link  href={Resume} download={'Md-Ali-Mujtaba-Resume'}>
+           <Link  href={Resume} download="fw18_0758-Md-Ali-Mujtaba-Resume">
            <Text
               fontSize={["20px"]}
               color={["white"]}
@@ -131,7 +131,8 @@ function Navbar() {
                 textDecorationColor: "red",
                 textDecorationThickness: "3px",
               }}
-              onClick={()=>window.open('http://localhost:3000/static/media/Md-Ali-Mujtaba-Resume.ad1f90bb3d5e0322995b.pdf')}
+              onClick={()=>window.open('https://drive.google.com/file/d/1lyovK3g9l_VXg91iN0F8YIABkGfYrwBN/view')}
+              
             >
               Resume
             </Text>
@@ -228,7 +229,7 @@ function Navbar() {
                 Contact
               </Text>
                 </Link>
-              <Link  href={Resume}  download={'Md-Ali-Mujtaba-Resume'} onClick={onClose}>
+              <Link  href={Resume}   download="fw18_0758-Md-Ali-Mujtaba-Resume">
            <Text
               fontSize={["20px"]}
               color={["white"]}
@@ -240,7 +241,9 @@ function Navbar() {
                 textDecorationThickness: "3px",
                 
               }}
-              onClick={()=>window.open('http://localhost:3000/static/media/Md-Ali-Mujtaba-Resume.ad1f90bb3d5e0322995b.pdf')}
+              
+              onClick={()=>window.open('https://drive.google.com/file/d/1lyovK3g9l_VXg91iN0F8YIABkGfYrwBN/view')}
+              
             >
               Resume
             </Text>

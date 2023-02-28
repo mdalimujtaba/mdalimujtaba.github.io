@@ -40,7 +40,7 @@ function Project() {
         >
           <Box h={"auto"} w={["100%", "100%", "55%", "55%"]}>
             <Image
-              src="https://i.postimg.cc/L6mwrqdY/Screenshot-1770.png"
+              src="https://i.postimg.cc/2S7QXfzG/Screenshot-1918.png"
               alt="cover_image"
               height={"100%"}
               w="100%"
@@ -58,11 +58,10 @@ function Project() {
             pb="10px"
           >
             <Heading size={"lg"} color="white" mt={"10px"}>
-              TimeCamp Clone
+              i-mart
             </Heading>
             <Text color="white" size={["md"]} mt={"10px"}>
-              Time-camp website is a time tracking application used to keep
-              track of the team's work progress in an organizations.
+              This is a e-commerce website which sales jeans and shirt as a its product.
             </Text>
             <Text
               color="white"
@@ -73,7 +72,7 @@ function Project() {
               Tech Stack Used
             </Text>
             <Text color="white" size={["md"]}>
-              JavaScript | ReactJS | Chakra-UI | CSS | HTML
+              JavaScript | ReactJS | Chakra-UI | CSS | HTML | Express JS | Node JS | Mongoose 
             </Text>
             <Box
              
@@ -85,7 +84,7 @@ function Project() {
               // border="1px solid white"
             >
               <Link
-                href="https://github.com/mdalimujtaba/Timecamp.com_clone"
+                href="https://github.com/mdalimujtaba/i_mart-_frontend-"
                 target={"_blank"}
                 _hover={{ textdecoration: "none" }}
               >
@@ -98,7 +97,175 @@ function Project() {
                 </Button>
               </Link>
               <Link
-                href="https://timecampin.netlify.app/"
+                href="https://i-mart-frontend-xi.vercel.app/"
+                target={"_blank"}
+                _hover={{ textdecoration: "none" }}
+              >
+                <Button
+                  colorScheme="gray"
+                  color="black"
+                  // mt={["15px", "0", "0", "0"]}
+                  rightIcon={<FiExternalLink />}
+                >
+                  Live
+                </Button>
+              </Link>
+            </Box>
+          </Box>
+        </Box>
+        <Box
+          h={"auto"}
+          display={["block", "block", "flex", "flex"]}
+          borderRadius="10px"
+          border={"2px solid white"}
+          w={["100%", "86%", "86%", "70%"]}
+          ml={["0%", "7%", "7%", "15%"]}
+          mt={["30px"]}
+          _hover={{ transform: "scale(1.05)", transition: "1s" }}
+          bg="rgb(30,41,59)"
+        >
+          <Box h={"auto"} w={["100%", "100%", "55%", "55%"]}>
+            <Image
+              src="https://i.postimg.cc/pTPRY42g/Screenshot-1920.png"
+              alt="cover_image"
+              height={"100%"}
+              w="100%"
+              borderTopLeftRadius={["10px", "10px", "10px", "10px"]}
+              borderTopRightRadius={["10px", "10px", "0", "0"]}
+              borderBottomLeftRadius={["0px", "0px", "10px", "10px"]}
+            />
+          </Box>
+          <Box
+            h={["auto"]}
+            // border={"1px solid red"}
+            w={["100%", "100%", "45%", "45%"]}
+            textAlign={"center"}
+            p={['0','10px','10px',"10px"]}
+            pb="10px"
+          >
+            <Heading size={"lg"} color="white" mt={"10px"}>
+              DevTv App
+            </Heading>
+            <Text color="white" size={["md"]} mt={"10px"}>
+              Apple Tv is a video streaming site where you can able
+               to find the exclusive content copy rights owned by apple.
+            </Text>
+            <Text
+              color="white"
+              fontSize={"20px"}
+              fontWeight={["500"]}
+              mt={"10px"}
+            >
+              Tech Stack Used
+            </Text>
+            <Text color="white" size={["md"]}>
+              CSS | HTML | JavaScript |React JS | Chakra UI | Redux
+            </Text>
+            <Box
+              display={["flex", "flex", "flex", "flex"]}
+              justifyContent={["space-around"]}
+              mt={["10px"]}
+            >
+              <Link
+                href="https://github.com/mdalimujtaba/DevTV-Clone"
+                target={"_blank"}
+                _hover={{ textdecoration: "none" }}
+              >
+                {" "}
+                <Button
+                  colorScheme="gray"
+                  color="black"
+                  rightIcon={<AiFillGithub />}
+                >
+                  Source Code
+                </Button>
+              </Link>
+              <Link
+                href="https://dev-tv-plus.vercel.app/"
+                target={"_blank"}
+                _hover={{ textdecoration: "none" }}
+              >
+                <Button
+                  colorScheme="gray"
+                  color="black"
+                  // mt={["15px", "0", "0", "0"]}
+                  rightIcon={<FiExternalLink />}
+                >
+                  Live
+                </Button>
+              </Link>
+            </Box>
+          </Box>
+        </Box>
+        <Box
+          h={"auto"}
+          display={["block", "block", "flex", "flex"]}
+          borderRadius="10px"
+          border={"2px solid white"}
+          w={["100%", "86%", "86%", "70%"]}
+          ml={["0%", "7%", "7%", "15%"]}
+          mt={["30px"]}
+          _hover={{ transform: "scale(1.05)", transition: "1s" }}
+          bg="rgb(30,41,59)"
+        >
+          <Box h={"auto"} w={["100%", "100%", "55%", "55%"]}>
+            <Image
+              src="https://i.postimg.cc/J4tDk64T/Screenshot-1922.png"
+              alt="cover_image"
+              height={"100%"}
+              w="100%"
+              borderTopLeftRadius={["10px", "10px", "10px", "10px"]}
+              borderTopRightRadius={["10px", "10px", "0", "0"]}
+              borderBottomLeftRadius={["0px", "0px", "10px", "10px"]}
+            />
+          </Box>
+          <Box
+            h={["auto"]}
+            // border={"1px solid red"}
+            w={["100%", "100%", "45%", "45%"]}
+            textAlign={"center"}
+            p={['0','10px','10px',"10px"]}
+            pb="10px"
+          >
+            <Heading size={"lg"} color="white" mt={"10px"}>
+              Adorama Clone
+            </Heading>
+            <Text color="white" size={["md"]} mt={"10px"}>
+              Adorama is the e-commerce platform which sells electrical and 
+              electronic products such as camera, lens, keyboard, mouse etc.
+            </Text>
+            <Text
+              color="white"
+              fontSize={"20px"}
+              fontWeight={["500"]}
+              mt={"10px"}
+            >
+              Tech Stack Used
+            </Text>
+            <Text color="white" size={["md"]}>
+            JavaScript | ReactJS | Chakra-UI | CSS | HTML | Express JS | Node JS | Mongoose
+            </Text>
+            <Box
+              display={["flex", "flex", "flex", "flex"]}
+              justifyContent={["space-around"]}
+              mt={["10px"]}
+            >
+              <Link
+                href="https://github.com/mdalimujtaba/Adorama-Clone"
+                target={"_blank"}
+                _hover={{ textdecoration: "none" }}
+              >
+                {" "}
+                <Button
+                  colorScheme="gray"
+                  color="black"
+                  rightIcon={<AiFillGithub />}
+                >
+                  Source Code
+                </Button>
+              </Link>
+              <Link
+                href="https://adorama-photography.vercel.app/"
                 target={"_blank"}
                 _hover={{ textdecoration: "none" }}
               >
@@ -200,7 +367,96 @@ function Project() {
             </Box>
           </Box>
         </Box>
-        <Box
+        
+        {/* <Box
+          h={"auto"}
+          display={["block", "block", "flex", "flex"]}
+          borderRadius="10px"
+          border={"2px solid white"}
+          w={["100%", "86%", "86%", "70%"]}
+          ml={["0%", "7%", "7%", "15%"]}
+          mt={["30px"]}
+          _hover={{ transform: "scale(1.05)", transition: "1s" }}
+          bg="rgb(30,41,59)"
+        >
+          <Box h={"auto"} w={["100%", "100%", "55%", "55%"]}>
+            <Image
+              src="https://i.postimg.cc/L6mwrqdY/Screenshot-1770.png"
+              alt="cover_image"
+              height={"100%"}
+              w="100%"
+              borderTopLeftRadius={["10px", "10px", "10px", "10px"]}
+              borderTopRightRadius={["10px", "10px", "0", "0"]}
+              borderBottomLeftRadius={["0px", "0px", "10px", "10px"]}
+            />
+          </Box>
+          <Box
+            h={["auto"]}
+            // border={"1px solid red"}
+            w={["100%", "100%", "45%", "45%"]}
+            textAlign={"center"}
+            p={['0','10px','10px',"10px"]}
+            pb="10px"
+          >
+            <Heading size={"lg"} color="white" mt={"10px"}>
+              TimeCamp Clone
+            </Heading>
+            <Text color="white" size={["md"]} mt={"10px"}>
+              Time-camp website is a time tracking application used to keep
+              track of the team's work progress in an organizations.
+            </Text>
+            <Text
+              color="white"
+              fontSize={"20px"}
+              fontWeight={["500"]}
+              mt={"10px"}
+            >
+              Tech Stack Used
+            </Text>
+            <Text color="white" size={["md"]}>
+              JavaScript | ReactJS | Chakra-UI | CSS | HTML
+            </Text>
+            <Box
+             
+              display={["flex", "flex", "flex", "flex"]}
+              justifyContent={["space-around"]}
+              alignContent="space-between"
+              
+              mt={["10px"]}
+              // border="1px solid white"
+            >
+              <Link
+                href="https://github.com/mdalimujtaba/Timecamp.com_clone"
+                target={"_blank"}
+                _hover={{ textdecoration: "none" }}
+              >
+                <Button
+                  colorScheme="gray"
+                  color="black"
+                  rightIcon={<AiFillGithub />}
+                >
+                  Source Code
+                </Button>
+              </Link>
+              <Link
+                href="https://timecampin.netlify.app/"
+                target={"_blank"}
+                _hover={{ textdecoration: "none" }}
+              >
+                <Button
+                  colorScheme="gray"
+                  color="black"
+                  // mt={["15px", "0", "0", "0"]}
+                  rightIcon={<FiExternalLink />}
+                >
+                  Live
+                </Button>
+              </Link>
+            </Box>
+          </Box>
+        </Box> */}
+        
+        {/* <Box
           h={"auto"}
           display={["block", "block", "flex", "flex"]}
           borderRadius="10px"
@@ -283,8 +539,8 @@ function Project() {
               </Link>
             </Box>
           </Box>
-        </Box>
-        <Box
+        </Box> */}
+        {/* <Box
           h={"auto"}
           display={["block", "block", "flex", "flex"]}
           borderRadius="10px"
@@ -368,7 +624,7 @@ function Project() {
               </Link>
             </Box>
           </Box>
-        </Box>
+        </Box> */}
       </Box>
     </Box>
   );
