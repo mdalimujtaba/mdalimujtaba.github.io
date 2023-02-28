@@ -9,7 +9,7 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import Resume from "../Resume/Md-Ali-Mujtaba-Resume.pdf"
+import Resume from "../Resume/fw18_0758-Md-Ali-Mujtaba-Resume.pdf"
 import { IoMdArrowDropright } from "react-icons/io";
 // import { Typewriter } from 'react-simple-typewriter'
 function Intro() {
